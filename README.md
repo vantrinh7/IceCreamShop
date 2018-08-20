@@ -21,8 +21,7 @@ User designs ice cream according to the given orders and click "Serve the next o
 ![match](misc/match.png)  ![serve](misc/serve.png)
 
 <br>
-
-
+This program makes use of Stack data structure (last in first out) to determine which ice cream scoup is eaten, and Queue data structure (first in first out) to determine which ice cream order is served.
 
 
 
