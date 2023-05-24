@@ -123,6 +123,34 @@ public class LinkedList<T> {
 			}
 		}
 	}
+	
+	/**
+	 * Insert data at the end of the list.
+	 */
+	public void insertLast(T data) {
+		// Create a new variable for current node
+		LinkedListNode<T> currentNode = new LinkedListNode<T>();
+		// Set current node to be equal to head value
+		currentNode = head;
+		// Create a new node
+		LinkedListNode<T> newNode = new LinkedListNode<T>();
+		// Insert data into this new node
+		newNode.setData(data);
+		// If the head node is empty - its value is null
+		if (currentNode == null) {
+			// Assign the new node (considered last node) to head;
+			head = newNode;
+		} else {
+			// Otherwise if head node is not empty
+			// Loop while next node is not null
+			while (currentNode.getNext() != null) {
+				// Move on to the next node
+				currentNode = currentNode.getNext();
+			}
+			// If next node is null, then it is the last node
+			currentNode.setNext(newNode);
+		}
+	}
 
 	/**
 	 * Insert a new node with data at the end of the list.
