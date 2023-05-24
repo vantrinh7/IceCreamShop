@@ -1,5 +1,5 @@
 /**
- * This method defines a stack, with the ability to enqueue (add element),
+ * This class defines a queue, with the ability to enqueue (add element),
  * dequeue (remove element), peek (get data at the top) and check if queue is
  * empty
  *
