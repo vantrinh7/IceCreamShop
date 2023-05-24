@@ -1,5 +1,5 @@
 /**
- * This method defines a stack, with the ability to push (add element), pop
+ * This class defines a stack, with the ability to push (add element), pop
  * (remove element), peek (get data at the top) and check if stack is empty
  *
  * @param <T>
