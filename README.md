@@ -21,7 +21,10 @@ User designs ice cream according to the given orders and click "Serve the next o
 ![match](misc/match.png)  ![serve](misc/serve.png)
 
 <br>
-This program makes use of Stack data structure (last in first out) to determine which ice cream scoup is eaten, and Queue data structure (first in first out) to determine which ice cream order is served.
+This program creates a Linked List structure from scratch, which is used to create Stack and Queue data structures. A Stack (last in first out) is used to determine which ice cream scoup is eaten, and a Queue (first in first out) is used to determine which ice cream order is served.
+
+## File Description
+* [LinkedListNode](https://github.com/vantrinh7/IceCreamShop/blob/master/src/LinkedListNode.java) defines the a node in the linked list, provides getter and setter methods of the nodes.
 
 
 
