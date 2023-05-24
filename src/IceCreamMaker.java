@@ -1,6 +1,7 @@
 /**
  * This class is a JPanel that creates menu and buttons
  * It listens to events from the buttons and acts accordingly
+ * Serves as the Controller component in Model-View-Controller.
  */
 import java.awt.BorderLayout;
 import java.awt.Color;
