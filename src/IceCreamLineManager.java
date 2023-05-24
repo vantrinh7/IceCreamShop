@@ -1,5 +1,6 @@
 /**
- * This class handles events related to the ice cream line (the view)
+ * This class handles events related to the ice cream line.
+ * Serves as the Controller component in Model-View-Controller.
  */
 
 import java.awt.BorderLayout;
