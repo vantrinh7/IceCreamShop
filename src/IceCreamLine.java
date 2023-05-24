@@ -1,5 +1,6 @@
 /**
- * This class uses queues to create a line of ice cream orders (the model)
+ * This class uses queues to create a line of ice cream orders.
+ * Serves as the Model component in Model-View-Controller.
  */
 
 import java.awt.Graphics;
