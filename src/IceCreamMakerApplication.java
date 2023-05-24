@@ -1,6 +1,6 @@
 /**
  * This class has the main method, which creates a frame for the view, add the view
- * and serves as the controller in the Model-View-Controller
+ * and calls the IceCreamMaker(), which servers as the Controller component in Model-View-Controller.
  */
 import javax.swing.JFrame;
 
