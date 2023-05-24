@@ -23,38 +23,39 @@ public class QueueLL<T> implements Queue<T> {
 	}
 
 	/**
-	 * @Return the element at the top of the queue
+	 * @Return the element at the beginning of the queue
 	 */
 	@Override
 	public T peek() {
 		if (!queue.isEmpty())
-			return queue.getLast();
+			return queue.getFirst();
 		return null;
 	}
 
 	/**
-	 * @Return the element at the top of the queue, and remove it from the
-	 *         queue.
+	 * @Return the element at the beginning of the queue, and remove it from the
+	 *         queue. First item in is the first item out.
 	 */
 	@Override
 	public T dequeue() {
 		T elem = null;
 		if (!queue.isEmpty()) {
-			elem = queue.getLast();
-			queue.deleteLast();
+			elem = queue.getFirst();
+			queue.deleteFirst();
 		}
 		return elem;
 	}
 
+	
 	/**
-	 * Add the element to the top of the queue.
+	 * Add the element to the end of the queue.
 	 * 
 	 * @param data
 	 *            element to add to queue
 	 */
 	@Override
 	public void enqueue(T data) {
-		queue.insertFirst(data);
+		queue.insertLast(data);
 	}
 
 	/**
