@@ -5,52 +5,53 @@
  * @param <T>
  *            The generic type of StackLL
  */
-public class StackLL<T> implements Stack<T> {
+public class StackLL<T> implements Stack<T> { 
 
-	// Global variable, including a LinkedList implemented in previous
+	// Global variable, including a LinkedList implemented in previous 
 	// assignment
 	private LinkedList<T> stack;
 
-	/*
+	/**
 	 * Constructor of the stack
 	 */
 	public StackLL() {
 		stack = new LinkedList<T>();
 	}
 
-	/*
+	/**
 	 * Add the element to the top of the stack.
 	 */
 	@Override
 	public void push(T data) {
-		stack.insertFirst(data);
+		stack.insertLast(data);
 	}
 
-	/*
+	/**
 	 * @Return the element at the top of the stack, and remove it from the
-	 * stack.
+	 * stack. Last item in is the first item out.
 	 */
 	@Override
 	public T pop() {
-		// tail is the top of the stack
-		T tail = null;
+		// The last item of the linked list is the top of the stack
+		T top = null;
 		if (!isEmpty()) {
-			tail = stack.getFirst();
-			stack.deleteFirst();
+			top = stack.getLast();
+			stack.deleteLast();
 		}
-		return tail;
+		return top;
 	}
 
-	/*
+	/**
 	 * @Return the element at the top of the stack
 	 */
 	@Override
 	public T peek() {
 		if (!isEmpty())
-			return stack.getFirst();
+			return stack.getLast();
 		return null;
 	}
 
+	/**Check if stack is empty*/
 	@Override
 	public boolean isEmpty() {
 		return stack.isEmpty();
