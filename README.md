@@ -25,7 +25,7 @@ This program creates a Linked List structure from scratch. The LinkedList is the
 
 ## File Description
 * [LinkedListNode.java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/LinkedListNode.java) defines a node in the linked list and provides getter and setter methods of the node.
-* [LinkedList/java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/LinkedList.java) creates the main functions of a linked list, such as insertion, deletion, lookup, and `toString()` methods.
+* [LinkedList.java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/LinkedList.java) creates the main functions of a linked list, such as insertion, deletion, lookup, and `toString()` methods.
 * [Stack.java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/Stack.java) is an interface that encapsulates the ADT for a stack data structure. 
 * [StackLL.java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/StackLL.java) is a linked list that implements the Stack interface and defines Stack functions such as `push()` (add element), `pop()`(remove element), `peek()` (get data at the top) and `isEmpty()` (check if the stack is empty).
 * [Queue.java](https://github.com/vantrinh7/IceCreamShop/blob/master/src/Queue.java) is an interface that encapsulates the ADT for a queue data structure. 
