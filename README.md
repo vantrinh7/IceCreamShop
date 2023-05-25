@@ -8,7 +8,7 @@ Ice Cream Shop is a game that allows users to design their own ice cream, consum
 
 <br>
 
-When "Start" button is clicked, a timer starts counting down. User designs ice cream according to the given orders and click "Serve the next order". Each correct serving earns 10 points, and each incorrect serving looses 5 points. 
+When "Start" button is clicked, a timer starts counting down. User designs the ice cream according to the given orders and click "Serve the next order". Each correct serving earns 10 points, and each incorrect serving looses 5 points. 
 
 <br>
 
