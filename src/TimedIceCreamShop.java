@@ -1,5 +1,5 @@
 /**
- * This class creates menus, buttons and a timer for the ice cream shop.
+ * This class extends IceCreamShop.java and handles game timing.
  * Serves as the Model and Controller components in Model-View-Controller.
  */
 import java.awt.BorderLayout;
