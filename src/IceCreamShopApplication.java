@@ -1,5 +1,6 @@
 /**
- * This class creates a new frame for the ice cream shop
+ * This class creates a new frame for the ice cream shop, 
+ * calls TimedIceCreamShop(), and runs the program.
  */
 import javax.swing.JFrame;
 
