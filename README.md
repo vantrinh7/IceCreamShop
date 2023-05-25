@@ -6,7 +6,7 @@ First, add any of the four flavors using "Strawberry", "Green tea", "Burnt caram
 
 <br>
 
-![1](misc/1.png)![3](misc/3.png)![4](misc/4.png)![0](misc/0.png)
+![1](misc/1.png)![0](misc/0.png)![3](misc/3.png)![4](misc/4.png)
 
 <br>
 
