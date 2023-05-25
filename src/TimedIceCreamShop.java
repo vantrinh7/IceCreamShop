@@ -1,5 +1,6 @@
 /**
- * This class creates a timer for the ice cream shop
+ * This class creates menus, buttons and a timer for the ice cream shop.
+ * Serves as the Controller component in Model-View-Controller.
  */
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
