@@ -1,6 +1,5 @@
 /**
- * This class defines a scoop on the cone, provides methods to find the flavor
- * index, add the scoop and remove the scoop
+ * This class defines an ice cream cone cone, provides methods to add a scoop, remove a scoop and determine the flavor.
  * The class serves as the Model component in Model-View-Controller.
  */
 public class IceCreamCone {
