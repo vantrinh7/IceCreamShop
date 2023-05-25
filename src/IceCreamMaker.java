@@ -1,5 +1,5 @@
 /**
- * This class is a JPanel that creates menu and buttons
+ * This class is a JPanel that creates buttons and panels
  * It listens to events from the buttons and acts accordingly
  * Serves as the Controller component in Model-View-Controller.
  */
