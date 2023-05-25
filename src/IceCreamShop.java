@@ -1,6 +1,7 @@
 /**
- * This class serves as a model for the ice cream shop, responsible for the 
- * ice cream shop logic and the the events in the shop
+ * This class defines the ice cream shop and is responsible for the 
+ * ice cream shop logic and the the events in the shop.
+ * Serves as the Model component in Model-View-Controller.
  */
 
 import java.awt.BorderLayout;
