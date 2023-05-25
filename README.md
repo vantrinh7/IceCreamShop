@@ -2,7 +2,7 @@
 
 Ice Cream Shop is a game that allows users to design their own ice cream, consume the ice cream, and serve ice cream orders in a virtual shop. In the game, user prepares ice cream according to a list of orders and serves the ice cream as fast as possible. 
 
-First, add any of the four flavors using "Strawberry", "Green tea", "Burnt caramel" and "Raspberry" buttons. Then, each time the "Eat the top scoop" button, a top scoop will be removed.
+First, add any of the four flavors using "Strawberry", "Green tea", "Burnt caramel" and "Raspberry" buttons. Then, each time the "Eat the top scoop" button, the last scoop added is removed.
 
 <br>
 
